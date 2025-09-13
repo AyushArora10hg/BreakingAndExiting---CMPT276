@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8aab2633-d1f8-4bb1-a8d2-c8fb5e63efbe" name="Changes" comment="fixed laser traps" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+&quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2oM7QRmuO1PQ91Q2H2swXARDkhL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainMenu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainMenuScreen.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankLevelFactoryTest.createBankMapObjectsTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankLevelFactoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankLevelFactoryTest.verifyVaultLocation.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EnemyIntegrationTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ExitDoorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FollowEnemyTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HUDIntegrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HUDUnitTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HUDUnitTest.testScoreCounterInitialization.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.KeyHandlerIntegrationTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.KeyHandlerIntegrationTests.testCollisionPrevention.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.KeyHandlerIntegrationTests.testCollisionPreventionA.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.KeyHandlerIntegrationTests.testCollisionPreventionS.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.KeyHandlerIntegrationTests.testCollisionPreventionW.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.KeyHandlerIntegrationTests.testDoublePresses.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.KeyHandlerIntegrationTests.testExitDoorCollision.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.KeyHandlerIntegrationTests.testKeyReleased.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.KeyHandlerIntegrationTests.testProcessAKey.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.KeyHandlerIntegrationTests.testProcessDKey.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.KeyHandlerIntegrationTests.testProcessSKey.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.KeyHandlerIntegrationTests.testProcessWKey.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.KeyHandlerTest.FiveKeysPressed.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.KeyHandlerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.KeyHandlerTest.keyPressed.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LaserEnemyTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LevelTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LevelTest.testMapObjectCollisions.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LoseScreenIntegrationTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LoseScreenTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LoseScreenTest.testButtonActions.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LoseScreenTest.testButtonsInitialization.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainCharacterTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainCharacterTest.getPosition.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainMenuIntegrationTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainMenuScreenTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MapObjectFactoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MapObjectTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OverallTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.RewardsFactoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RewardsFactoryTest.testRegularRewardConstruction.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RewardsIntegrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RewardsUnitTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TrackEnemyTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Unnamed (1).executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.WinScreenIntegrationTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WinScreenTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ca.sfu.CMPT276_Group23.BreakingAndExiting.GameObjects in BreakingAndExiting.executor&quot;: &quot;Coverage&quot;,
+    &quot;Maven.BreakingAndExiting [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.BreakingAndExiting [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.BreakingAndExiting [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.BreakingAndExiting [validate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/conor/OneDrive/Documents/276Group/CMPT276Group/CMPT276F24_group23/BreakingAndExiting/src/test&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.6908046&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\conor\OneDrive\Documents\276Group\276Group\BreakingAndExiting\src\Sprites\MenuSprites" />
+      <recent name="C:\Users\conor\OneDrive\Documents\276Group\276Group\BreakingAndExiting\src\Sprites\LoseScreenSprites" />
+      <recent name="C:\Users\conor\OneDrive\Documents\276Group\276Group\BreakingAndExiting\src\Sprites\WinScreenSprites" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\conor\OneDrive\Documents\276Group\276Group\BreakingAndExiting\src\Sprites\HudSprites" />
+      <recent name="C:\Users\conor\OneDrive\Documents\276Group\276Group\BreakingAndExiting\src\Sprites\BankSprites" />
+      <recent name="C:\Users\conor\OneDrive\Documents\276Group\276Group\BreakingAndExiting\src\Sprites\ObjectSprites" />
+      <recent name="C:\Users\conor\OneDrive\Documents\276Group\276Group\BreakingAndExiting\src\Sprites\GuardSprites" />
+      <recent name="C:\Users\conor\OneDrive\Documents\276Group\276Group\BreakingAndExiting\src\Sprites\RewardSprites" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ca.sfu.CMPT276_Group23.BreakingAndExiting" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ca.sfu.CMPT276_Group23.BreakingAndExiting.GameObjects" />
+      <recent name="ca.sfu.CMPT276_Group23.BreakingAndExiting.UserInput" />
+      <recent name="ca.sfu.CMPT276_Group23.BreakingAndExiting.UI" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ca.sfu.CMPT276_Group23.BreakingAndExiting.Main" />
+      <module name="BreakingAndExiting" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KeyHandlerIntegrationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BreakingAndExiting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.sfu.CMPT276_Group23.BreakingAndExiting.UserInput.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.sfu.CMPT276_Group23.BreakingAndExiting.UserInput" />
+      <option name="MAIN_CLASS_NAME" value="ca.sfu.CMPT276_Group23.BreakingAndExiting.UserInput.KeyHandlerIntegrationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KeyHandlerIntegrationTests.testDoublePresses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BreakingAndExiting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.sfu.CMPT276_Group23.BreakingAndExiting.UserInput.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.sfu.CMPT276_Group23.BreakingAndExiting.UserInput" />
+      <option name="MAIN_CLASS_NAME" value="ca.sfu.CMPT276_Group23.BreakingAndExiting.UserInput.KeyHandlerIntegrationTests" />
+      <option name="METHOD_NAME" value="testDoublePresses" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KeyHandlerIntegrationTests.testKeyReleased" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BreakingAndExiting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.sfu.CMPT276_Group23.BreakingAndExiting.UserInput.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.sfu.CMPT276_Group23.BreakingAndExiting.UserInput" />
+      <option name="MAIN_CLASS_NAME" value="ca.sfu.CMPT276_Group23.BreakingAndExiting.UserInput.KeyHandlerIntegrationTests" />
+      <option name="METHOD_NAME" value="testKeyReleased" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainCharacterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BreakingAndExiting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.sfu.CMPT276_Group23.BreakingAndExiting.GameObjects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.sfu.CMPT276_Group23.BreakingAndExiting.GameObjects" />
+      <option name="MAIN_CLASS_NAME" value="ca.sfu.CMPT276_Group23.BreakingAndExiting.GameObjects.MainCharacterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OverallTest" type="JUnit" factoryName="JUnit">
+      <module name="BreakingAndExiting" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RewardsIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BreakingAndExiting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.sfu.CMPT276_Group23.BreakingAndExiting.GameObjects.Rewards.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.sfu.CMPT276_Group23.BreakingAndExiting.GameObjects.Rewards" />
+      <option name="MAIN_CLASS_NAME" value="ca.sfu.CMPT276_Group23.BreakingAndExiting.GameObjects.Rewards.RewardsIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="BreakingAndExiting" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.OverallTest" />
+      <item itemvalue="JUnit.Unnamed" />
+      <item itemvalue="JUnit.MainCharacterTest" />
+      <item itemvalue="JUnit.RewardsIntegrationTest" />
+      <item itemvalue="JUnit.KeyHandlerIntegrationTests.testDoublePresses" />
+      <item itemvalue="JUnit.KeyHandlerIntegrationTests.testKeyReleased" />
+      <item itemvalue="JUnit.KeyHandlerIntegrationTests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RewardsIntegrationTest" />
+        <item itemvalue="JUnit.MainCharacterTest" />
+        <item itemvalue="JUnit.KeyHandlerIntegrationTests" />
+        <item itemvalue="JUnit.KeyHandlerIntegrationTests.testDoublePresses" />
+        <item itemvalue="JUnit.KeyHandlerIntegrationTests.testKeyReleased" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task id="LOCAL-00001" summary="updated guard images">
+      <option name="closed" value="true" />
+      <created>1730590862395</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730590862395</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8aab2633-d1f8-4bb1-a8d2-c8fb5e63efbe" name="Changes" comment="updated guard methods" />
+      <created>1730668438531</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730668438531</updated>
+      <workItem from="1730668441443" duration="8525000" />
+      <workItem from="1730770310554" duration="3186000" />
+      <workItem from="1731830256785" duration="1969000" />
+      <workItem from="1731832409468" duration="192000" />
+      <workItem from="1731901117530" duration="3621000" />
+      <workItem from="1731908472842" duration="2898000" />
+      <workItem from="1732130481852" duration="701000" />
+      <workItem from="1732133281093" duration="14055000" />
+      <workItem from="1732748060526" duration="839000" />
+      <workItem from="1733006165020" duration="1576000" />
+      <workItem from="1733022065328" duration="14106000" />
+      <workItem from="1733086277327" duration="1560000" />
+      <workItem from="1733121568190" duration="610000" />
+      <workItem from="1733167628436" duration="1438000" />
+      <workItem from="1733170944635" duration="2359000" />
+      <workItem from="1733253214566" duration="1847000" />
+      <workItem from="1733521772626" duration="1222000" />
+      <workItem from="1733532442135" duration="1624000" />
+      <workItem from="1757743297137" duration="15000" />
+    </task>
+    <task id="LOCAL-00002" summary="follow and track guards now successfully end the game">
+      <option name="closed" value="true" />
+      <created>1730671462759</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730671462759</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added enemy object collision with some logic for moving after collision, as well as refined enemy collision bounds">
+      <option name="closed" value="true" />
+      <created>1730674292619</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730674292619</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fixed enemy collision logic">
+      <option name="closed" value="true" />
+      <created>1730675077566</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730675077566</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added laser trap sprites and class">
+      <option name="closed" value="true" />
+      <created>1730676809607</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730676809607</updated>
+    </task>
+    <task id="LOCAL-00006" summary="implemented lasers into game (needs score fixing)">
+      <option name="closed" value="true" />
+      <created>1730677510348</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730677510348</updated>
+    </task>
+    <task id="LOCAL-00007" summary="JavaDocs for FollowEnemy">
+      <option name="closed" value="true" />
+      <created>1730751779370</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1730751779370</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fixing merge conflicts.">
+      <option name="closed" value="true" />
+      <created>1730772355609</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730772355609</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fixing merge conflicts.">
+      <option name="closed" value="true" />
+      <created>1730773515201</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1730773515201</updated>
+    </task>
+    <task id="LOCAL-00010" summary="matching merge updates">
+      <option name="closed" value="true" />
+      <created>1730773821950</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1730773821950</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fixed typo">
+      <option name="closed" value="true" />
+      <created>1730775610079</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1730775610079</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fixed laser gates to despawn">
+      <option name="closed" value="true" />
+      <created>1730776147814</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1730776147814</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added enemies for difficulty">
+      <option name="closed" value="true" />
+      <created>1730783300339</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1730783300339</updated>
+    </task>
+    <task id="LOCAL-00014" summary="moved laser gate and adjusted enemy track">
+      <option name="closed" value="true" />
+      <created>1730783491009</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1730783491009</updated>
+    </task>
+    <task id="LOCAL-00015" summary="more laser gate adjustments">
+      <option name="closed" value="true" />
+      <created>1730783643703</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1730783643703</updated>
+    </task>
+    <task id="LOCAL-00016" summary="changed implementation of enemy objects">
+      <option name="closed" value="true" />
+      <created>1730784853202</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1730784853202</updated>
+    </task>
+    <task id="LOCAL-00017" summary="updated Lacey and Aidan's Asn4 report">
+      <option name="closed" value="true" />
+      <created>1732748319862</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1732748319862</updated>
+    </task>
+    <task id="LOCAL-00018" summary="implemented global animation method for enemies and added variable width/height for enemy objects">
+      <option name="closed" value="true" />
+      <created>1733109619205</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1733109619205</updated>
+    </task>
+    <task id="LOCAL-00019" summary="merge conflicts">
+      <option name="closed" value="true" />
+      <created>1733109774669</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1733109774669</updated>
+    </task>
+    <task id="LOCAL-00020" summary="powerpoint modifications">
+      <option name="closed" value="true" />
+      <created>1733119556667</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1733119556667</updated>
+    </task>
+    <task id="LOCAL-00021" summary="fixed enemies despawning on exitDoor collision, as well as code quality improvements and light refactoring">
+      <option name="closed" value="true" />
+      <created>1733191274676</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1733191274676</updated>
+    </task>
+    <task id="LOCAL-00022" summary="fixed workspace.xml">
+      <option name="closed" value="true" />
+      <created>1733461948989</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1733461948989</updated>
+    </task>
+    <task id="LOCAL-00023" summary="fixed laser traps">
+      <option name="closed" value="true" />
+      <created>1733527855388</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1733527855388</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changed project layout, started implementation of MainCharacter.java" />
+    <MESSAGE value="updated guard images" />
+    <MESSAGE value="follow and track guards now successfully end the game" />
+    <MESSAGE value="added enemy object collision with some logic for moving after collision" />
+    <MESSAGE value="added enemy object collision with some logic for moving after collision, as well as refined enemy collision bounds" />
+    <MESSAGE value="fixed enemy collision logic" />
+    <MESSAGE value="added laser trap sprites and class" />
+    <MESSAGE value="implemented lasers into game (needs score fixing)" />
+    <MESSAGE value="modified laser positions" />
+    <MESSAGE value="JavaDocs for FollowEnemy" />
+    <MESSAGE value="Fixing merge conflicts." />
+    <MESSAGE value="matching merge updates" />
+    <MESSAGE value="fixed typo" />
+    <MESSAGE value="fixed laser gates to despawn" />
+    <MESSAGE value="added enemies for difficulty" />
+    <MESSAGE value="moved laser gate and adjusted enemy track" />
+    <MESSAGE value="more laser gate adjustments" />
+    <MESSAGE value="changed implementation of enemy objects" />
+    <MESSAGE value="updated Lacey and Aidan's Asn4 report" />
+    <MESSAGE value="implemented global animation method for enemies and added variable width/height for enemy objects" />
+    <MESSAGE value="merge conflicts" />
+    <MESSAGE value="powerpoint modifications" />
+    <MESSAGE value="fixed enemies despawning on exitDoor collision, as well as code quality improvements and light refactoring" />
+    <MESSAGE value="fixed workspace.xml" />
+    <MESSAGE value="fixed laser traps" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed laser traps" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BreakingAndExiting$FollowEnemyTest.ic" NAME="FollowEnemyTest Coverage Results" MODIFIED="1732307341378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>ca.sfu.CMPT276_Group23.BreakingAndExiting.GameObjects.Enemies.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BreakingAndExiting$RewardsIntegrationTest.ic" NAME="RewardsIntegrationTest Coverage Results" MODIFIED="1732307721902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>ca.sfu.CMPT276_Group23.BreakingAndExiting.IntegrationTests.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BreakingAndExiting$RewardsFactoryTest.ic" NAME="RewardsFactoryTest Coverage Results" MODIFIED="1732307772931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>ca.sfu.CMPT276_Group23.BreakingAndExiting.LevelFactories.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BreakingAndExiting$Unnamed__1_.ic" NAME="Unnamed (1) Coverage Results" MODIFIED="1732340682531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/BreakingAndExiting$WinScreenTest.ic" NAME="WinScreenTest Coverage Results" MODIFIED="1732317151796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>ca.sfu.CMPT276_Group23.BreakingAndExiting.UI.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BreakingAndExiting$MainMenuScreenTest.ic" NAME="MainMenuScreenTest Coverage Results" MODIFIED="1732317134632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>ca.sfu.CMPT276_Group23.BreakingAndExiting.UI.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BreakingAndExiting$MapObjectFactoryTest.ic" NAME="MapObjectFactoryTest Coverage Results" MODIFIED="1732307762468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>ca.sfu.CMPT276_Group23.BreakingAndExiting.LevelFactories.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BreakingAndExiting$LoseScreenIntegrationTests.ic" NAME="LoseScreenIntegrationTests Coverage Results" MODIFIED="1732307653691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>ca.sfu.CMPT276_Group23.BreakingAndExiting.IntegrationTests.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BreakingAndExiting$BankLevelFactoryTest.ic" NAME="BankLevelFactoryTest Coverage Results" MODIFIED="1732308779906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>ca.sfu.CMPT276_Group23.BreakingAndExiting.LevelFactories.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BreakingAndExiting$MapObjectTest.ic" NAME="MapObjectTest Coverage Results" MODIFIED="1732307423985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>ca.sfu.CMPT276_Group23.BreakingAndExiting.GameObjects.MapObjects.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BreakingAndExiting$LoseScreenTest.ic" NAME="LoseScreenTest Coverage Results" MODIFIED="1732317125264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>ca.sfu.CMPT276_Group23.BreakingAndExiting.UI.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BreakingAndExiting$ExitDoorTest.ic" NAME="ExitDoorTest Coverage Results" MODIFIED="1732307403849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>ca.sfu.CMPT276_Group23.BreakingAndExiting.GameObjects.MapObjects.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BreakingAndExiting$RewardsUnitTest.ic" NAME="RewardsUnitTest Coverage Results" MODIFIED="1732307526489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>ca.sfu.CMPT276_Group23.BreakingAndExiting.GameObjects.Rewards.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BreakingAndExiting$LaserEnemyTest.ic" NAME="LaserEnemyTest Coverage Results" MODIFIED="1732307353381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>ca.sfu.CMPT276_Group23.BreakingAndExiting.GameObjects.Enemies.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BreakingAndExiting$TrackEnemyTest.ic" NAME="TrackEnemyTest Coverage Results" MODIFIED="1732307369376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>ca.sfu.CMPT276_Group23.BreakingAndExiting.GameObjects.Enemies.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BreakingAndExiting$LevelTest.ic" NAME="LevelTest Coverage Results" MODIFIED="1732317109908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>ca.sfu.CMPT276_Group23.BreakingAndExiting.UI.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BreakingAndExiting$MainMenuIntegrationTests.ic" NAME="MainMenuIntegrationTests Coverage Results" MODIFIED="1732323982281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>ca.sfu.CMPT276_Group23.BreakingAndExiting.IntegrationTests.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BreakingAndExiting$ca_sfu_CMPT276_Group23_BreakingAndExiting_GameObjects_in_BreakingAndExiting.ic" NAME="ca.sfu.CMPT276_Group23.BreakingAndExiting.GameObjects in BreakingAndExiting Coverage Results" MODIFIED="1732345595850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>ca.sfu.CMPT276_Group23.BreakingAndExiting.GameObjects.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BreakingAndExiting$MainCharacterTest.ic" NAME="MainCharacterTest Coverage Results" MODIFIED="1732340776481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>ca.sfu.CMPT276_Group23.BreakingAndExiting.GameObjects.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BreakingAndExiting$HUDIntegrationTest.ic" NAME="HUDIntegrationTest Coverage Results" MODIFIED="1732318163962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>ca.sfu.CMPT276_Group23.BreakingAndExiting.UI.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BreakingAndExiting$HUDUnitTest.ic" NAME="HUDUnitTest Coverage Results" MODIFIED="1732317715569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>ca.sfu.CMPT276_Group23.BreakingAndExiting.UI.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BreakingAndExiting$OverallTest.ic" NAME="OverallTest Coverage Results" MODIFIED="1732340731739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/BreakingAndExiting$KeyHandlerIntegrationTests.ic" NAME="KeyHandlerIntegrationTests Coverage Results" MODIFIED="1732323929048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>ca.sfu.CMPT276_Group23.BreakingAndExiting.UserInput.*</FILTER>
+    </SUITE>
+  </component>
+</project>

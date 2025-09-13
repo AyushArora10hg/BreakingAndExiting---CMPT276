@@ -1,0 +1,70 @@
+Index: src/main/java/ca/sfu/CMPT276_Group23/BreakingAndExiting/GameObjects/MapObjects/ExitDoor.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package ca.sfu.CMPT276_Group23.BreakingAndExiting.GameObjects.MapObjects;\r\n\r\npublic class ExitDoor extends MapObject {\r\n    private Boolean doorOpen;\r\n    private MapObject doorBarrier;\r\n\r\n    public ExitDoor(){\r\n        this.doorOpen=false;\r\n        this.doorBarrier=new MapObject();\r\n    }\r\n\r\n    public Boolean getDoorOpen(){\r\n        return this.doorOpen;\r\n\r\n    }\r\n    public void setDoorOpen(Boolean open){\r\n        this.doorOpen=open;\r\n\r\n    }\r\n    public void removeDoorBarrier(){\r\n        this.doorOpen=true;\r\n        this.doorBarrier.setVisibility(false);\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/ca/sfu/CMPT276_Group23/BreakingAndExiting/GameObjects/MapObjects/ExitDoor.java b/src/main/java/ca/sfu/CMPT276_Group23/BreakingAndExiting/GameObjects/MapObjects/ExitDoor.java
+--- a/src/main/java/ca/sfu/CMPT276_Group23/BreakingAndExiting/GameObjects/MapObjects/ExitDoor.java	(revision 2a6564fdfbf9a95bf2ad1ed0ea0e6974826826dc)
++++ b/src/main/java/ca/sfu/CMPT276_Group23/BreakingAndExiting/GameObjects/MapObjects/ExitDoor.java	(date 1729888363520)
+@@ -5,6 +5,7 @@
+     private MapObject doorBarrier;
+ 
+     public ExitDoor(){
++        super();
+         this.doorOpen=false;
+         this.doorBarrier=new MapObject();
+     }
+Index: src/main/java/ca/sfu/CMPT276_Group23/BreakingAndExiting/GameObjects/HUD.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/ca/sfu/CMPT276_Group23/BreakingAndExiting/GameObjects/HUD.java b/src/main/java/ca/sfu/CMPT276_Group23/BreakingAndExiting/GameObjects/HUD.java
+new file mode 100644
+--- /dev/null	(date 1729888335572)
++++ b/src/main/java/ca/sfu/CMPT276_Group23/BreakingAndExiting/GameObjects/HUD.java	(date 1729888335572)
+@@ -0,0 +1,16 @@
++package ca.sfu.CMPT276_Group23.BreakingAndExiting.GameObjects;
++
++public class HUD {
++    protected int scoreCounter;
++    protected double timerCounter;
++
++    public void startHUD(){
++
++    }
++    public int getScoreCounter(){
++        return this.scoreCounter;
++    }
++    public double getTimerCounter(){
++        return this.timerCounter;
++    }
++}
+Index: src/main/java/ca/sfu/CMPT276_Group23/BreakingAndExiting/HUD.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/ca/sfu/CMPT276_Group23/BreakingAndExiting/HUD.java b/src/main/java/ca/sfu/CMPT276_Group23/BreakingAndExiting/HUD.java
+new file mode 100644
+--- /dev/null	(date 1729888335574)
++++ b/src/main/java/ca/sfu/CMPT276_Group23/BreakingAndExiting/HUD.java	(date 1729888335574)
+@@ -0,0 +1,16 @@
++package ca.sfu.CMPT276_Group23.BreakingAndExiting.GameObjects;
++
++public class HUD {
++    protected int scoreCounter;
++    protected double timerCounter;
++
++    public void startHUD(){
++
++    }
++    public int getScoreCounter(){
++        return this.scoreCounter;
++    }
++    public double getTimerCounter(){
++        return this.timerCounter;
++    }
++}
