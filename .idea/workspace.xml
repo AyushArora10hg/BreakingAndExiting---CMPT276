@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8aab2633-d1f8-4bb1-a8d2-c8fb5e63efbe" name="Changes" comment="fixed laser traps" />
+    <list default="true" id="8aab2633-d1f8-4bb1-a8d2-c8fb5e63efbe" name="Changes" comment="fixed laser traps">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
 &quot;associatedIndex&quot;: 7
@@ -32,80 +34,81 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainMenu.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainMenuScreen.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BankLevelFactoryTest.createBankMapObjectsTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BankLevelFactoryTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BankLevelFactoryTest.verifyVaultLocation.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EnemyIntegrationTests.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ExitDoorTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FollowEnemyTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HUDIntegrationTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HUDUnitTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HUDUnitTest.testScoreCounterInitialization.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.KeyHandlerIntegrationTests.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.KeyHandlerIntegrationTests.testCollisionPrevention.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.KeyHandlerIntegrationTests.testCollisionPreventionA.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.KeyHandlerIntegrationTests.testCollisionPreventionS.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.KeyHandlerIntegrationTests.testCollisionPreventionW.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.KeyHandlerIntegrationTests.testDoublePresses.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.KeyHandlerIntegrationTests.testExitDoorCollision.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.KeyHandlerIntegrationTests.testKeyReleased.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.KeyHandlerIntegrationTests.testProcessAKey.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.KeyHandlerIntegrationTests.testProcessDKey.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.KeyHandlerIntegrationTests.testProcessSKey.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.KeyHandlerIntegrationTests.testProcessWKey.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.KeyHandlerTest.FiveKeysPressed.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.KeyHandlerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.KeyHandlerTest.keyPressed.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LaserEnemyTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LevelTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LevelTest.testMapObjectCollisions.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LoseScreenIntegrationTests.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LoseScreenTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LoseScreenTest.testButtonActions.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LoseScreenTest.testButtonsInitialization.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainCharacterTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainCharacterTest.getPosition.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainMenuIntegrationTests.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainMenuScreenTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MapObjectFactoryTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MapObjectTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.OverallTest.executor&quot;: &quot;Coverage&quot;,
-    &quot;JUnit.RewardsFactoryTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RewardsFactoryTest.testRegularRewardConstruction.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RewardsIntegrationTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RewardsUnitTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TrackEnemyTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Unnamed (1).executor&quot;: &quot;Coverage&quot;,
-    &quot;JUnit.WinScreenIntegrationTests.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WinScreenTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ca.sfu.CMPT276_Group23.BreakingAndExiting.GameObjects in BreakingAndExiting.executor&quot;: &quot;Coverage&quot;,
-    &quot;Maven.BreakingAndExiting [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.BreakingAndExiting [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.BreakingAndExiting [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.BreakingAndExiting [validate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/conor/OneDrive/Documents/276Group/CMPT276Group/CMPT276F24_group23/BreakingAndExiting/src/test&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.6908046&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.MainMenu.executor": "Run",
+    "Application.MainMenuScreen.executor": "Run",
+    "JUnit.BankLevelFactoryTest.createBankMapObjectsTest.executor": "Run",
+    "JUnit.BankLevelFactoryTest.executor": "Run",
+    "JUnit.BankLevelFactoryTest.verifyVaultLocation.executor": "Run",
+    "JUnit.EnemyIntegrationTests.executor": "Run",
+    "JUnit.ExitDoorTest.executor": "Run",
+    "JUnit.FollowEnemyTest.executor": "Run",
+    "JUnit.HUDIntegrationTest.executor": "Run",
+    "JUnit.HUDUnitTest.executor": "Run",
+    "JUnit.HUDUnitTest.testScoreCounterInitialization.executor": "Run",
+    "JUnit.KeyHandlerIntegrationTests.executor": "Run",
+    "JUnit.KeyHandlerIntegrationTests.testCollisionPrevention.executor": "Run",
+    "JUnit.KeyHandlerIntegrationTests.testCollisionPreventionA.executor": "Run",
+    "JUnit.KeyHandlerIntegrationTests.testCollisionPreventionS.executor": "Run",
+    "JUnit.KeyHandlerIntegrationTests.testCollisionPreventionW.executor": "Run",
+    "JUnit.KeyHandlerIntegrationTests.testDoublePresses.executor": "Run",
+    "JUnit.KeyHandlerIntegrationTests.testExitDoorCollision.executor": "Run",
+    "JUnit.KeyHandlerIntegrationTests.testKeyReleased.executor": "Run",
+    "JUnit.KeyHandlerIntegrationTests.testProcessAKey.executor": "Run",
+    "JUnit.KeyHandlerIntegrationTests.testProcessDKey.executor": "Run",
+    "JUnit.KeyHandlerIntegrationTests.testProcessSKey.executor": "Run",
+    "JUnit.KeyHandlerIntegrationTests.testProcessWKey.executor": "Run",
+    "JUnit.KeyHandlerTest.FiveKeysPressed.executor": "Run",
+    "JUnit.KeyHandlerTest.executor": "Run",
+    "JUnit.KeyHandlerTest.keyPressed.executor": "Run",
+    "JUnit.LaserEnemyTest.executor": "Run",
+    "JUnit.LevelTest.executor": "Run",
+    "JUnit.LevelTest.testMapObjectCollisions.executor": "Run",
+    "JUnit.LoseScreenIntegrationTests.executor": "Run",
+    "JUnit.LoseScreenTest.executor": "Run",
+    "JUnit.LoseScreenTest.testButtonActions.executor": "Run",
+    "JUnit.LoseScreenTest.testButtonsInitialization.executor": "Run",
+    "JUnit.MainCharacterTest.executor": "Run",
+    "JUnit.MainCharacterTest.getPosition.executor": "Run",
+    "JUnit.MainMenuIntegrationTests.executor": "Run",
+    "JUnit.MainMenuScreenTest.executor": "Run",
+    "JUnit.MapObjectFactoryTest.executor": "Run",
+    "JUnit.MapObjectTest.executor": "Run",
+    "JUnit.OverallTest.executor": "Coverage",
+    "JUnit.RewardsFactoryTest.executor": "Run",
+    "JUnit.RewardsFactoryTest.testRegularRewardConstruction.executor": "Run",
+    "JUnit.RewardsIntegrationTest.executor": "Run",
+    "JUnit.RewardsUnitTest.executor": "Run",
+    "JUnit.TrackEnemyTest.executor": "Run",
+    "JUnit.Unnamed (1).executor": "Coverage",
+    "JUnit.WinScreenIntegrationTests.executor": "Run",
+    "JUnit.WinScreenTest.executor": "Run",
+    "JUnit.ca.sfu.CMPT276_Group23.BreakingAndExiting.GameObjects in BreakingAndExiting.executor": "Coverage",
+    "Maven.BreakingAndExiting [clean].executor": "Run",
+    "Maven.BreakingAndExiting [compile].executor": "Run",
+    "Maven.BreakingAndExiting [install].executor": "Run",
+    "Maven.BreakingAndExiting [validate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ayush/OneDrive/SFU'26/6. FALL_2024/CMPT276_Saba Alimadadi/BreakingAndExiting---CMPT276",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.6908046",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\conor\OneDrive\Documents\276Group\276Group\BreakingAndExiting\src\Sprites\MenuSprites" />
@@ -299,6 +302,7 @@
       <workItem from="1733521772626" duration="1222000" />
       <workItem from="1733532442135" duration="1624000" />
       <workItem from="1757743297137" duration="15000" />
+      <workItem from="1757743856121" duration="43000" />
     </task>
     <task id="LOCAL-00002" summary="follow and track guards now successfully end the game">
       <option name="closed" value="true" />
