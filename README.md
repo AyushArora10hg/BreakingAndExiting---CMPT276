@@ -42,9 +42,9 @@ collected enough rewards. Between these two points, enemies and barriers pose ch
 ## Game Tutorial Video
 
 <p>
-  Video tutorial 2: https://youtu.be/pTJnpwt0L10?si=gNimBNyBmTrL1jh3<br><br>
+  Video tutorial 1: https://youtu.be/pTJnpwt0L10?si=gNimBNyBmTrL1jh3<br><br>
   
-  Video tutorial 1: https://youtu.be/u5victWB0Mk <br>
+  Video tutorial 2: https://youtu.be/u5victWB0Mk <br>
   Video Credit: Conor Benson<br>
   Song used in video: The Entertainer by Scott Joplin
 </p>
@@ -148,6 +148,7 @@ BreakingAndExiting/
 </ul>
     
     
+
 
 
 
